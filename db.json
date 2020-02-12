@@ -1,0 +1,41 @@
+{
+  "cliente": [
+    {
+      "id": 1,
+      "nome": "fulano",
+      "email": "email@email.com",
+      "endereco": "rua de cima",
+      "telefone": "telefone"
+    }
+  ],
+  "equipamento": [
+    {
+      "id": 1,
+      "marca": "sony",
+      "tipo": "AUDIO_VIDEO",
+      "descricaoDefeito": "Não liga a tela",
+      "clienteId": 1
+    }
+  ],
+  "funcionario": [
+    {
+      "id": 1,
+      "nome": "Silva",
+      "email": "silva@email.com",
+      "senha": "senhas",
+      "perfil": "ROLE_ADMIN"
+    }
+  ],
+  "ordemServico": [
+    {
+      "id": 1,
+      "equipamentoId": 1,
+      "funcionarioId": "1",
+      "ordemStatus": "PENDENTE",
+      "dataCriacao": "2020-02-02",
+      "inicioServico": "",
+      "conclusaoServico": "",
+      "notaConclusao": ""
+    }
+  ]
+}
